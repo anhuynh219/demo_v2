@@ -1,0 +1,22 @@
+@media (min-width: 992px) {
+  .rounded-lg-3 { border-radius: .3rem; }
+}
+
+.scrollable-cell {
+      max-height: 200px; /* Chiều cao tối đa của ô */
+      max-width: 350px; /* Chiều rộng tối đa của ô */
+      overflow-y: auto;  /* Thêm thanh cuộn dọc khi cần */
+      overflow-x: auto;
+      border: 1px solid #dee2e6; /* Tùy chọn: thêm viền để rõ ràng */
+}
+
+h1{
+  font-family:'Times New Roman', Times, serif;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
