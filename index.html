@@ -692,7 +692,7 @@
       async function fetchJsonData(index) {
         try {
           // Giả định các file JSON nằm trong thư mục 'data' với tên 'data{index}.json'
-          const response = await fetch(`/src/input/${index}.json`);
+          const response = await fetch(`src/input/${index}.json`);
           if (!response.ok) {
             throw new Error(`Không thể tải file JSON: ${response.statusText}`);
           }
